@@ -65,15 +65,23 @@ Before you begin, ensure you have the following installed on your system:
 go get -u github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-Server-
 
 
-### Usage
-Provide examples and explanations on how to use your project. Include code snippets and any relevant details.
+Usage
+
+To start using the Restful APIs provided by this project, follow these steps:
+
+1. Ensure that you have the project installed and running as described in the [Installation](#installation) section.
+
+2. Open your preferred API testing tool or use `curl` in the command line to interact with the API. Here's an example of making a GET request to retrieve a resource:
+
+   ```bash
+   curl -X GET http://localhost:8080/api/resource
 
 
-### API Documentation
+ API Documentation
 Link to or embed documentation for your RESTful APIs. Include information on endpoints, request/response formats, and any authentication mechanisms.
 
 
-### Contributing
+ Contributing
 Explain how others can contribute to your project. Include guidelines for submitting issues, feature requests, or pull requests.
 
 
