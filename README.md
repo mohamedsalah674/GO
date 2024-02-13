@@ -69,9 +69,9 @@ go get -u github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-S
 
 To interact with the Restful APIs provided by this project, follow these steps:
 
-1. Ensure that you have the project installed and running as described in the [Installation](#installation) section.
+Ensure that you have the project installed and running as described in the Installation section.
 
-2. Open your preferred API testing tool or use `curl` in the command line to interact with the API. Here are some examples of common API operations:
+Open your preferred API testing tool or use curl in the command line to interact with the API. Here are some examples of common API operations:
 
    - **Retrieve a Resource (GET):**
      ```bash
