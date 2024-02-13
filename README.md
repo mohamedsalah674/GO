@@ -64,7 +64,6 @@ Before you begin, ensure you have the following installed on your system:
 # Example command
 go get -u github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-Server-
 
-
 ## Usage
 
 To interact with the Restful APIs provided by this project, follow these steps:
