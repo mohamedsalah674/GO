@@ -92,15 +92,69 @@ Explore other available endpoints and methods based on your API design. Refer to
 
 Feel free to integrate the Restful APIs into your applications or use them for learning and testing purposes. The provided examples cover common CRUD operations, but you can adapt them to your specific use cases and requirements.
 
-### API Documentation
-Link to or embed documentation for your RESTful APIs. Include information on endpoints, request/response formats, and any authentication mechanisms.
+## API Documentation
+
+### Overview
+
+This section provides detailed documentation for the Restful APIs implemented in this project. Below are the key endpoints, request/response formats, and authentication mechanisms.
+
+### Endpoints
+
+#### 1. Retrieve a Resource
+
+- **Endpoint:** `/api/resource`
+- **Method:** `GET`
+- **Description:** Retrieve a specific resource.
+- **Example Request:**
+  ```bash
+  curl -X GET http://localhost:8080/api/resource
+
+Example Response:
+
+{
+  "id": "123",
+  "name": "ExampleResource"
+}
+
+2. Create a New Resource
+Endpoint: /api/resource
+Method: POST
+Description: Create a new resource.
+Request Body:
+
+{
+  "name": "NewResource"
+}
 
 
-### Contributing
-Explain how others can contribute to your project. Include guidelines for submitting issues, feature requests, or pull requests.
+Example Request:
+curl -X POST -H "Content-Type: application/json" -d '{"name": "NewResource"}' http://localhost:8080/api/resource
 
+Example Response:
+{
+  "id": "124",
+  "name": "NewResource"
+}
+
+## Contributing
+
+Thank you for considering contributing to this project! Contributions are highly valued, and there are several ways you can participate.
+
+### Bug Reports and Feature Requests
+
+If you encounter any bugs or have ideas for new features, please [open an issue](https://github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-Server-/issues). Be sure to provide as much detail as possible, including steps to reproduce the issue or a clear description of the new feature.
+
+### Code Contributions
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature-name
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Customize the placeholders in this template, such as `your-feature-name` and `your-bug-name`, with the specific names or identifiers relevant to your contributions. Additionally, you may want to include a link to your code of conduct and replace the email address with your project maintainer's contact information.
+
 
 
