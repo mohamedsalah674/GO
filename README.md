@@ -109,17 +109,18 @@ This section provides detailed documentation for the Restful APIs implemented in
   ```bash
   curl -X GET http://localhost:8080/api/resource
 
-Example Response:
+- **Example Response:**
 
 {
   "id": "123",
   "name": "ExampleResource"
 }
 
-#### 1. Create new Resource
-Endpoint: /api/resource
-Method: POST
-Description: Create a new resource.
+#### 2. Create new Resource
+- **Endpoint:** `/api/resource`
+- **Method:** `POST`
+- **Description:** Create a new resource.
+
 Request Body:
 
 {
@@ -127,10 +128,10 @@ Request Body:
 }
 
 
-Example Request:
+- **Example Request:**
 curl -X POST -H "Content-Type: application/json" -d '{"name": "NewResource"}' http://localhost:8080/api/resource
 
-Example Response:
+- **Example Response:**
 {
   "id": "124",
   "name": "NewResource"
