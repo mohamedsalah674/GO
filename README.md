@@ -116,7 +116,7 @@ Example Response:
   "name": "ExampleResource"
 }
 
-2. Create a New Resource
+#### 1. Create new Resource
 Endpoint: /api/resource
 Method: POST
 Description: Create a new resource.
