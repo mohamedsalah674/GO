@@ -43,15 +43,22 @@ Highlight the key features of your project. This could include:
 
 ## Getting Started
 
-Provide instructions on how to get your project up and running. Include information on prerequisites, installation steps, and any configuration required.
+To get started with this project, follow these steps:
 
 ### Prerequisites
 
-List any software or dependencies that users need to have installed before they can use your project.
+Before you begin, ensure you have the following installed on your system:
+
+- [Golang](https://golang.org/doc/install)
+- [MongoDB](https://docs.mongodb.com/manual/installation/)
+- [Gin](https://github.com/gin-gonic/gin#installation)
 
 ### Installation
 
-Step-by-step instructions on how to install and set up your project. Include code snippets and commands.
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-Server-.git
 
 ```bash
 # Example command
