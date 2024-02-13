@@ -67,14 +67,40 @@ go get -u github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-S
 
 ## Usage
 
-To start using the Restful APIs provided by this project, follow these steps:
+To interact with the Restful APIs provided by this project, follow these steps:
 
 1. Ensure that you have the project installed and running as described in the [Installation](#installation) section.
 
-2. Open your preferred API testing tool or use `curl` in the command line to interact with the API. Here's an example of making a GET request to retrieve a resource:
+2. Open your preferred API testing tool or use `curl` in the command line to interact with the API. Here are some examples of common API operations:
 
-   ```bash
-   curl -X GET http://localhost:8080/api/resource
+   - **Retrieve a Resource (GET):**
+     ```bash
+     curl -X GET http://localhost:8080/api/resource
+     ```
+     Replace `http://localhost:8080/api/resource` with the specific endpoint for retrieving a resource.
+
+   - **Create a New Resource (POST):**
+     ```bash
+     curl -X POST -H "Content-Type: application/json" -d '{"name": "NewResource"}' http://localhost:8080/api/resource
+     ```
+     Adjust the payload and endpoint according to your API design.
+
+   - **Update a Resource (PUT):**
+     ```bash
+     curl -X PUT -H "Content-Type: application/json" -d '{"name": "UpdatedResource"}' http://localhost:8080/api/resource/{resourceID}
+     ```
+     Replace `{resourceID}` with the ID of the resource you want to update.
+
+   - **Delete a Resource (DELETE):**
+     ```bash
+     curl -X DELETE http://localhost:8080/api/resource/{resourceID}
+     ```
+     Replace `{resourceID}` with the ID of the resource you want to delete.
+
+3. Explore other available endpoints and methods based on your API design. Refer to the [API Documentation](#api-documentation) for detailed information on each endpoint, request/response formats, and any authentication mechanisms.
+
+Feel free to integrate the Restful APIs into your applications or use them for learning and testing purposes. The provided examples cover common CRUD operations, but you can adapt them to your specific use cases and requirements.
+
 
 
  API Documentation
