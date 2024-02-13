@@ -34,9 +34,9 @@ Installation
 Step-by-step instructions on how to install and set up your project. Include code snippets and commands.
 
 bash
-Copy code
 # Example command
 go get -u github.com/mohamedsalah674/Restful-APIs-Using-Golang-gin-and-MongoDB-Server-
+
 Usage
 Provide examples and explanations on how to use your project. Include code snippets and any relevant details.
 
