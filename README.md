@@ -16,7 +16,21 @@ A comprehensive guide and implementation of Restful APIs using Golang, Gin, and 
 
 ## Introduction
 
-Briefly introduce your project. Explain the purpose, goals, and motivation behind creating this repository. Mention any specific problem it solves or the skills it helps users develop.
+
+This project aims to facilitate the development and understanding of Restful APIs using the Golang programming language, the Gin web framework, and MongoDB as the database. Whether you are a beginner looking to dive into backend development or an experienced developer exploring new technologies, this repository provides a hands-on guide and implementation to enhance your skills and knowledge.
+
+## Goals and Purposes
+
+- **Goal 1: Educational Resource**
+  This project serves as an educational resource for individuals looking to learn Golang, Gin, and MongoDB. It provides a step-by-step guide, best practices, and a real-world implementation of Restful APIs.
+
+- **Goal 2: Practical Implementation**
+  The repository focuses on practical implementation, allowing users to not only understand the theoretical concepts but also apply them in a real-world scenario. The goal is to bridge the gap between theoretical knowledge and practical application.
+
+- **Goal 3: Open Source Collaboration**
+  Encouraging open source collaboration is another objective of this project. By providing a clear structure and well-documented code, the project aims to invite contributions from the community, fostering a collaborative environment for improvement and innovation.
+
+By achieving these goals, this project aims to empower developers with the skills and confidence to design, build, and deploy Restful APIs using Golang, Gin, and MongoDB.
 
 ## Features
 
