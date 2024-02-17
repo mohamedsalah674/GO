@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io"
+	"os"
+)
 
 func main() {
 
@@ -60,6 +64,12 @@ func main() {
 	// Unicode Format
 	fmt.Printf("%U", B)
 	fmt.Println("")
+
+	var name string = "Salah"
+
+	sout := fmt.Sprintf("Your name is:  %s ", name)
+
+	io.WriteString(os.Stdout, sout)
 
 	// Built in GO without need to import fmt
 	/*
