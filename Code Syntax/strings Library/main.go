@@ -40,6 +40,7 @@ func main() {
 	slice := strings.Fields("firstElement lastElement")
 	fmt.Println(slice)
 
+	// Returns [elm1 ...]
 	f := func(c rune) bool {
 		return !unicode.IsLetter(c) && !unicode.IsNumber(c)
 
